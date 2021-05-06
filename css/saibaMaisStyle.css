@@ -1,157 +1,214 @@
-body, ul, li, p {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #047681;
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #047681;
 }
 
-
 .menuComLogo {
-    border-bottom: solid 5px #024AA8;
-    margin-left: 5%;
-    margin-right: 5%;
+  border-bottom: solid 5px #024aa8;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #logo {
-    display: flex;
-    margin: auto;
-    justify-content: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .menu a {
-    display: block;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-bottom: 20px;
-    padding: 10px 16px;
-    text-align: center;
-    color: #FFDC57;
-    border-radius: 5px;
-    background-color: black;
-    width: auto;
-    text-shadow: 2px 2 px 2px;
+  display: block;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  text-align: center;
+  color: #ffdc57;
+  border-radius: 5px;
+  background-color: black;
+  width: auto;
+  text-shadow: 2px 2 px 2px;
 }
 
 li a:hover {
-    transition: ;
-    text-decoration: underline;
+  transition: none;
+  text-decoration: underline;
 }
 
 #titulo {
-    background-color: rgb(40, 17, 56);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    color: #FFDC57;
-    padding: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: justify;
-    max-width: 90%;
+  background-color: rgb(40, 17, 56);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  color: #ffdc57;
+  padding: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  max-width: 90%;
 }
 
 h1 {
-    padding: 5px;
-    text-align: justify;
+  padding: 5px;
+  text-align: justify;
 }
 
 .noticias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 90%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 90%;
+  margin: auto;
 }
 
 .noticias a {
-    color: #FFDC57;
-    text-decoration: none;
-    text-align: center;
+  color: #ffdc57;
+  text-decoration: none;
+  text-align: center;
 }
 
-
 .noticias p {
-    background-color: rgb(23, 35, 88);
-    color: #FFDC57;
+  background-color: rgb(23, 35, 88);
+  color: #ffdc57;
 }
 
 #noticia1 {
-    padding: 20px;
-    background-color: rgb(23, 35, 88);
-    border-radius: 50px 30px;
-    margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(23, 35, 88);
+  border-radius: 50px 30px;
+  margin-bottom: 30px;
 }
 
-
 #noticia2 {
-    padding: 20px;
-    background-color: rgb(23, 35, 88);
-    border-radius: 30px 50px;
-    margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(23, 35, 88);
+  border-radius: 30px 50px;
+  margin-bottom: 30px;
 }
 
 #noticia3 {
-    padding: 20px;
-    background-color: rgb(23, 35, 88);
-    border-radius: 50px 30px;
-    margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(23, 35, 88);
+  border-radius: 50px 30px;
+  margin-bottom: 30px;
 }
 
 #noticia4 {
-    padding: 20px;
-    background-color: rgb(23, 35, 88);
-    border-radius: 30px 50px;
-    margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(23, 35, 88);
+  border-radius: 30px 50px;
+  margin-bottom: 30px;
 }
 
 #noticia5 {
-    padding: 20px;
-    background-color: rgb(23, 35, 88);
-    border-radius: 50px 30px;
-    margin-bottom: 50px;
+  padding: 20px;
+  background-color: rgb(23, 35, 88);
+  border-radius: 50px 30px;
+  margin-bottom: 50px;
 }
 
 #noticia6 {
-    padding: 20px;
-    background-color: rgb(23, 35, 88);
-    border-radius: 30px 50px;
-    margin-bottom: 50px;
+  padding: 20px;
+  background-color: rgb(23, 35, 88);
+  border-radius: 30px 50px;
+  margin-bottom: 50px;
 }
 
 .rodape {
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .menuRodape a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #FFDC57;
-    align-items: center;
-    margin-left: 120px;
-    padding: 10px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ffdc57;
+  align-items: center;
+  margin-left: 120px;
+  padding: 10px;
 }
 
 .dadosRodape {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-top: 5px solid #024AA8;
-    border-bottom: 5px solid #024AA8;
-    margin-bottom: 50px;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 5px solid #024aa8;
+  border-bottom: 5px solid #024aa8;
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* CSS referente a pagina de Contato */
+formulario {
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+.formulario p {
+  width: 100%;
+  font-size: 1.5em;
+}
+.field {
+  width: 100%;
+  margin: 15px 0;
+}
+.field label,
+.field span {
+  padding-left: 10px;
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+}
+.radiobox label {
+  width: auto;
+  display: inline-block;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input#nao {
+  margin-left: 30px;
+}
+textarea {
+  line-height: 20px;
+  padding: 10px;
+  height: 90px;
+  resize: none;
+}
+input[type='submit'] {
+  display: block;
+  background-color: #ccc;
+  height: 35px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
 }

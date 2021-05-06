@@ -5,29 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="logo497x233.png" />
     <!-- Coloca logo na aba da página  -->
-    <link rel="stylesheet" href="styles/testeStyle.css" />
+    <link rel="stylesheet" href="css/saibaMaisStyle.css" />
     <title>Contato</title>
   </head>
   <body>
-    <header>
-      <!-- Cabeçalho -->
-      <h1>Portal Itaú</h1>
-      <h2>Cuidando do seu bolso e da sua saúde</h2>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="sobre.html" class="active">Sobre</a>
-        <a href="saibaMais.html">Saiba Mais</a>
-        <a href="contato.html">Contato</a>
-      </nav>
-    </header>
-    <div id="Descricao">
-      <h4>
-        Para dúvidas, sugestões, reclamações e atualizações, mande sua mensagem!
-      </h4>
+    <div class="menuComLogo">
+      <img id="logo" src="img/logo497x233.jpg" alt="Imagem do logo grupo G4" />
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="saibaMais.html">Saiba mais</a></li>
+      </ul>
     </div>
-    <div class="container">
+    <div id="titulo">
+      <h1>Para dúvidas, sugestões e reclamações, mande sua mensagem!</h1>
+    </div>
+    <div class="noticias">
       <form action="enviar-email.php" class="formulario" method="post">
-        <p>Envie uma mensagem preenchendo o formulário abaixo</p>
+        <p>Preencha o formulário com os seus dados:</p>
 
         <div class="field">
           <label for="nome">Seu Nome:</label>
@@ -87,12 +83,17 @@
         <input type="submit" name="acao" value="Enviar" />
       </form>
     </div>
-    <footer>
-      <!-- Rodapé -->
-      <div>
-        <a href="index.html">VOLTAR</a>
-        <p>@Desenvolvido por G4</p>
+    <div class="rodape">
+      <div class="dadosRodape">
+        <ul class="menuRodape">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#logo">Saiba mais</a></li>
+        </ul>
+        <img src="img/logoRodape.jpg" alt="logo do rodapé" />
+        <img id="logoGrupo" src="img/logoGrupo.jpg" alt="logo g4.com" />
       </div>
-    </footer>
+    </div>
   </body>
 </html>
