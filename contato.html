@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo497x233.png" />
+    <!-- Coloca logo na aba da página  -->
+    <link rel="stylesheet" href="styles/testeStyle.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <!-- Cabeçalho -->
+      <h1>Portal Itaú</h1>
+      <h2>Cuidando do seu bolso e da sua saúde</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html" class="active">Sobre</a>
+        <a href="saibaMais.html">Saiba Mais</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+    <div id="Descricao">
+      <h4>
+        Para dúvidas, sugestões, reclamações e atualizações, mande sua mensagem!
+      </h4>
+    </div>
+    <div class="container">
+      <form action="enviar-email.php" class="formulario" method="post">
+        <p>Envie uma mensagem preenchendo o formulário abaixo</p>
+
+        <div class="field">
+          <label for="nome">Seu Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome*"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="telefone">Seu Telefone:</label>
+          <input
+            type="text"
+            id="telefone"
+            name="telefone"
+            placeholder="Digite seu Telefone"
+          />
+        </div>
+
+        <div class="field">
+          <label for="email">Seu E-Mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu E-Mail*"
+            required
+          />
+        </div>
+        <div class="field radiobox">
+          <span>Deseja receber nossas novidades?</span>
+          <input
+            type="radio"
+            name="novidades"
+            id="sim"
+            value="sim"
+            checked
+          /><label for="sim">Sim</label>
+          <input type="radio" name="novidades" id="nao" value="nao" /><label
+            for="nao"
+            >Não</label
+          >
+        </div>
+        <div class="field">
+          <label for="mensagem">Sua mensagem:</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem*"
+            required
+          ></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar" />
+      </form>
+    </div>
+    <footer>
+      <!-- Rodapé -->
+      <div>
+        <a href="index.html">VOLTAR</a>
+        <p>@Desenvolvido por G4</p>
+      </div>
+    </footer>
+  </body>
+</html>
