@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo497x233.png" />
+    <!-- Coloca logo na aba da página  -->
+    <link rel="stylesheet" href="css/contatoStyle.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <div class="menuComLogo">
+      <img id="logo" src="img/logo497x233.jpg" alt="Imagem do logo grupo G4" />
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="saibaMais.html">Saiba mais</a></li>
+      </ul>
+    </div>
+    <div id="titulo">
+      <h1>Para dúvidas, sugestões e reclamações, mande sua mensagem!</h1>
+    </div>
+    <div class="noticias">
+      <form action="enviar-email.php" class="formulario" method="post">
+        <p>Preencha o formulário com os seus dados:</p>
+
+        <div class="field">
+          <label for="nome">Seu Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome*"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="telefone">Seu Telefone:</label>
+          <input
+            type="text"
+            id="telefone"
+            name="telefone"
+            placeholder="Digite seu Telefone"
+          />
+        </div>
+
+        <div class="field">
+          <label for="email">Seu E-Mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu E-Mail*"
+            required
+          />
+        </div>
+        <div class="field radiobox">
+          <span>Deseja receber nossas novidades?</span>
+          <input
+            type="radio"
+            name="novidades"
+            id="sim"
+            value="sim"
+            checked
+          /><label for="sim">Sim</label>
+          <input type="radio" name="novidades" id="nao" value="nao" /><label
+            for="nao"
+            >Não</label
+          >
+        </div>
+        <div class="field">
+          <label for="mensagem">Sua mensagem:</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem*"
+            required
+          ></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar" />
+      </form>
+    </div>
+    <div class="rodape">
+      <div class="dadosRodape">
+        <ul class="menuRodape">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#logo">Saiba mais</a></li>
+        </ul>
+        <img src="img/logoRodape.jpg" alt="logo do rodapé" />
+        <img id="logoGrupo" src="img/logoGrupo.jpg" alt="logo g4.com" />
+      </div>
+    </div>
+  </body>
+</html>
