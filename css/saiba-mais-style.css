@@ -7,7 +7,6 @@ body, ul, li, p {
     background-color: #047681;
 }
 
-
 .menuComLogo {
     border-bottom: solid 5px #0fa8d6;
     margin-left: 5%;
@@ -29,7 +28,7 @@ body, ul, li, p {
 }
 
 .menu a {
-    display: block;
+    display: flex;
     text-decoration: none;
     margin-left: 5px;
     margin-bottom: 20px;
@@ -47,92 +46,90 @@ li a:hover {
     text-decoration: underline;
 }
 
-#titulo {
+h1 {
     background-color: black;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
     border-radius: 10px;
     color: #FFDC57;
-    padding: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: justify;
-    max-width: 90%;
-}
-
-h1 {
-    padding: 5px;
-    text-align: justify;
-}
+    text-align: center;
+    padding: 10px;
+    }
 
 .noticias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 90%;
-    margin: auto;
-}
-
-.noticias a {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     color: #FFDC57;
-    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.noticias h3 {
     text-align: center;
 }
 
-
-.noticias p {
-    background-color: black;
+.noticias a {
+    text-decoration: none;
+    text-align: center;
     color: #FFDC57;
 }
 
+.noticias a:hover {
+    color: #0fa8d6;
+    text-decoration: underline;
+}
+
+.noticias p {
+    background-color: black;
+}
+
 #noticia1 {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
     background-color: black;
     border-radius: 50px 30px;
     margin-bottom: 30px;
 }
 
-
 #noticia2 {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
     background-color: black;
     border-radius: 30px 50px;
     margin-bottom: 30px;
 }
 
 #noticia3 {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
     background-color: black;
     border-radius: 50px 30px;
     margin-bottom: 30px;
 }
 
 #noticia4 {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
     background-color: black;
     border-radius: 30px 50px;
     margin-bottom: 30px;
 }
 
 #noticia5 {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
     background-color: black;
     border-radius: 50px 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #noticia6 {
-    padding: 20px;
+    padding: 0px 30px 30px 30px;
     background-color: black;
     border-radius: 30px 50px;
-    margin-bottom: 50px;
 }
 
 .rodape {
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 50px;
 }
 
 .menuRodape a {
@@ -147,11 +144,15 @@ h1 {
 .dadosRodape {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
     border-top: 5px solid #0fa8d6;
     border-bottom: 5px solid #0fa8d6;
     margin-bottom: 50px;
     text-align: center;
+}
+
+#logoGrupo {
+ margin-bottom: -15%;
 }
