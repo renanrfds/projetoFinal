@@ -9,7 +9,7 @@ body, ul, li, p {
 
 
 .menuComLogo {
-    border-bottom: solid 5px #024AA8;
+    border-bottom: solid 5px #0fa8d6;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -150,8 +150,8 @@ h1 {
     justify-content:space-around;
     align-items: center;
     padding: 20px;
-    border-top: 5px solid #024AA8;
-    border-bottom: 5px solid #024AA8;
+    border-top: 5px solid #0fa8d6;
+    border-bottom: 5px solid #0fa8d6;
     margin-bottom: 50px;
     text-align: center;
 }
