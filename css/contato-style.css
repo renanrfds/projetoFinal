@@ -118,8 +118,8 @@ input[type='text'], input[type='email'], textarea {
   border-radius: 15px;
   outline: none;
   padding-bottom: 10px;
-  color: #ffdc57;
-  background-color: #047681;
+  color: black;
+  background-color: #0fa8d6;
 }
 
 textarea {
@@ -132,7 +132,7 @@ textarea {
 }
 
 ::placeholder {
-  color: #ffdc57;
+  color: black;
 }
 
 input[type='submit'] {
