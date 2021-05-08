@@ -42,7 +42,6 @@ body, ul, li, p {
 }
 
 li a:hover {
-    transition: ;
     text-decoration: underline;
 }
 
