@@ -5,6 +5,164 @@ body, ul, li {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #047681;
+}body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #047681;
+  }
+
+  body {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  
+  .menuComLogo {
+    border-bottom: solid 5px #0fa8d6;
+   }
+  
+  #logo {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .menu a {
+    display: flex;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    text-align: center;
+    color: #FFDC57;
+    border-radius: 5px;
+    background-color: black;
+    width: auto;
+    text-shadow: 2px 2 px 2px;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  #topo {
+      margin-top: 30px;
+  }
+
+#Sobre {
+    background-color: black;
+    border-radius: 5px;
+    color: yellow;
+    padding: auto;
+    text-align: justify;
+    margin-bottom: -30px;
+}    
+
+#Descricao {
+    text-align: left;
+}
+
+
+.imagDestaque {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+    color: #FFDC57;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p {
+    background-color: #0fa8d6;
+    border: 5px #0fa8d6 solid;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+h3 {
+    background-color: black;
+    text-align: center;
+    color: #FFDC57;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #0fa8d6;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h4 a {
+   color: black;
+}
+
+h4 a:hover {
+  color: #FFDC57;
+}
+
+h5 {
+    text-align: center;
+}
+
+#conclusoes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rodape {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+.menuRodape a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFDC57;
+    align-items: center;
+    padding: 10px;
+}
+
+.dadosRodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-top: 5px solid #0fa8d6;
+    border-bottom: 5px solid #0fa8d6;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#logoGrupo {
+    margin-bottom: -15%;
 }
 
 .menuComLogo {
