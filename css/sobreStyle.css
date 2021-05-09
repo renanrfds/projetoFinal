@@ -8,7 +8,6 @@ body, ul, li {
 }
 
 .menuComLogo {
-   
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -24,7 +23,6 @@ body, ul, li {
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 20px;
-    
 }
 
 .menu a {
@@ -39,9 +37,7 @@ body, ul, li {
     background-color: black;
     width: auto;
     text-shadow: 2px 2 px 2px;
-    
 }
-
 
 #titulo {
     background-color: rgb(40, 17, 56);
@@ -58,55 +54,76 @@ body, ul, li {
     max-width: 90%;
 }
 
-
-
 h1 {
-    padding: 5px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    color: #FFDC57;
     text-align: center;
+    padding: 1px;
 }
 
 h2 {
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    color: #FFDC57;
     text-align: center;
+    padding: 10px;
 }
 
 h3 {
+    background-color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    color: #FFDC57;
     text-align: center;
+    padding: 10px;
 }
 
 h4 {
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    color: #FFDC57;
     text-align: center;
-   
+    padding: 10px;
 }
+
+/*Alinhar as fotos*/
 
 h5 {
     text-align: center;
 }
 
 #Sobre {
-    background-color: rgba(141, 19, 19, 0.9);
-    margin: auto;
-    border-radius: 5px;
-    color: yellow;
-    padding: auto;
+    background-color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    color: #FFDC57;
     text-align: center;
-    max-width: 100%;
+    padding: 10px;
+}
 
-}    
+/*Texto do perfil*/
 
 p {
-    text-align: left;
+    text-align: center;
     margin: 5%;
-    
-
+    background-color: black;
+    margin: center;
+    border-radius: 15px;
+    color: #FFDC57;
 }
-
-#Descricao {
-
-    text-align: left;
-
-}
-
-
 
 .rodape {
     margin-left: 5%;
@@ -121,7 +138,6 @@ p {
     align-items: center;
     margin-left: 0px;
     padding: 5px;
-    
 }
 
 .dadosRodape {
@@ -132,6 +148,4 @@ p {
     padding: 20px;
     border-top: 5px solid #024AA8;
     text-align: center;
-   
 }
-
