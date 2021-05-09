@@ -57,6 +57,7 @@ nav a:hover{
     grid-gap: 20px;
     max-width: 90%;
     margin: auto;
+    text-align: center;
 } 
 
 #noticia1{ 
@@ -109,7 +110,6 @@ nav a:hover{
 
 .fotoNoticia{
     width: 72%; 
-    margin-left: 55px;
     margin-bottom: 10px;
 } 
 
@@ -118,10 +118,6 @@ p{
     margin: 8px;
 }
 
-video{
-    margin-left: 55px; 
-    margin-bottom: 10px;
-}
 
 .dadosRodape{
     display: flex;
@@ -178,3 +174,4 @@ li a:hover {
         width: 60%;
     }
 }
+
