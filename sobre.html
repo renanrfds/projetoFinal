@@ -3,6 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" href="img/iconeaba.png"> <!-- Coloca logo na aba da página  -->
 	<title>Sobre</title>
 	<link rel="stylesheet" href="css/sobreStyle.css">
@@ -11,20 +13,16 @@
 <body>
 	<header>
 		<!-- Cabeçalho -->
-		<div class="menuComLogo">
-			<img id="logo" src="img/logo497x233.jpg" alt="Imagem do logo grupo G4">
-			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="sobre.html">Sobre</a></li>
-				<li><a href="saiba-mais.html">Saiba Mais</a></li>
-				<li><a href="contato.html">Contato</a></l>
-			</ul>
-		</div>
-
+		<img id="logo" src="img/logo497x233.jpg" alt="Imagem do logo portal G4">
+		<nav>
+			<a href="index.html" class="active">Home</a>
+			<a href="sobre.html">Sobre</a>
+			<a href="saiba-mais.html">Saiba Mais</a>
+			<a href="contato.html">Contato</a>
 		</nav>
 	</header>
+	
 	<div id="topo">
-
 		<div id="Sobre">
 			<h1>Sobre</h1>
 		</div> <br>
@@ -43,8 +41,8 @@
 		<img class="imgDestaque" src="img/team.png" width="100%">
 	</div>
 	<div id="Descricao">
-		<p> Abaixo vamos descrever os integrantes do Grupo 4, que fazem parte do processo seletivo do Itau-Tech, da
-			edição especial de pessoas com deficiência:</p> <br>
+		<h3> Abaixo vamos descrever os integrantes do Grupo 4, que fazem parte do processo seletivo do Itau-Tech, da
+			edição especial de pessoas com deficiência:</h3> <br>
 	</div>
 	<div id=integrante>
 		<h3> Caio Antunes</h3>
@@ -98,9 +96,13 @@
 
 		<h3>William de Souza</h3>
 		<h5><img class="imgintegrante" src="img/perfilwillian.png" width="20%"></h5>
-		<p> Sou William de Souza, trabalhei como backoffice na área de infraestrutura para projetos - SET/2014 à AGO/2019 na B3 (antiga BVMF&Bovespa). Era responsável pela organização das reuniões de alinhamento entre os times de infraestrutura, desenvolvimento e negócios. Estava sob a minha responsabilidade a abertura de chamados no Remedy; cobrança (SLA) das equipes de infraestrutura de projetos; atualização das informações pertinentes aos projetos no Confluence; organização das atividades da minha gerencia no JIRA; Apoiava nas atualização das informações do orçamento CAPEX e OPEX da empresa.
-
-			É muito gratificante trabalhar nesse projeto adquirindo novos conhecimentos em HTML5, CSS, JavaScript, Bootstrap, etc.</p>
+		<p> Me chamo e William de Souza, atuei por cinco anos como backoffice na área de infraestrutura para projetos na
+			antiga BvmfBovespa (Atual B3). Era responsável pela organização das Squads (reuniões) de alinhamento entre
+			os
+			times de infraestrutura, desenvolvimento e negócios, também
+			responsável pela abertura de chamados no Remedy, cobrança do SLA das equipes envolvidas nos projetos;
+			atualização das informações pertinentes aos projetos no Confluence; e organização das atividades da minha
+			área no JIRA; Auxiliava nas atualização das informações do orçamento CAPEX e OPEX da empresa.</p>
 		<div>
 			<h4> <a href="https://www.linkedin.com/in/williams2"> Conheça mais sobre o perfil profisional do Willian,
 					clicando aqui. </a> </h4> <br>
@@ -120,7 +122,7 @@
 
 		<h3> César Augusto</h3>
 		<h5><img class="imgintegrante" src="img/perfilcesar.png" width="20%"></h5>
-		<p> Me chamo César Augusto Dias Sá, 34 anos. Ao terminar o ensino médio não tive oportunidade de ingressar no
+		<p> Me chamo César Augusto Dias Sá, 33 anos. Ao terminar o ensino médio não tive oportunidade de ingressar no
 			ensino superior, que seria em TI, área que sempre gostei. Logo depois, uma complicação na saúde restringiu
 			minha vida a ficar em casa, pelos cuidados necessários. Essa oportunidade  é a primeira que tenho de mudar
 			minha vida com uma qualificação profissional. Sinto que posso dar o meu melhor, mesmo com todas as
@@ -163,9 +165,10 @@
 			de conhecimento em diversas plataformas para aprimorar minhas habilidades técnicas.</p>
 		<div>
 			<h4> <a href="https://www.linkedin.com/in/renan-rosa-fernandes-dos-santos-9b420a171"> Conheça mais sobre o
-					perfil profisional do Renan, clicando aqui. </a> </h4> <br>
+					perfil profisional do Renan, clicando aqui. </a> </h4>
 		</div>
 
+		<div id="conclusoes">
 		<h2> Conclusões da Equipe</h2>
 
 		<p> O projeto desenvolvido no decorrer da semana foi extremamente enriquecedor, em vista que pudemos trabalhar
@@ -176,26 +179,28 @@
 			possível para que as cores e formas sejam adequadas para pessoas que apresentam qualquer tipo de dificuldade
 			de visualização.
 		</p>
+		</div>
 
 	</div>
 
 
 	</div>
 
-	<div style="position: fixed; bottom:0%; left: 95%;"><a href="#logo" title="retornar ao topo"><img
+	<div style="position: fixed; bottom:0%; left: 95%;"><a href="#topo" title="retornar ao topo"><img
 				src="img/voltar.png" width="50%"></a></div>
 	</div>
-	<footer class="rodape">
+	
+	<footer>
+		<!-- Rodapé -->
 		<div class="dadosRodape">
 			<ul class="menuRodape">
-				<li><a href="index.html">Home</a></li>
+				<li><a href="#logo">Home</a></li>
 				<li><a href="sobre.html">Sobre</a></li>
 				<li><a href="saiba-mais.html">Saiba Mais</a></li>
 				<li><a href="contato.html">Contato</a></li>
 			</ul>
-			<img src="img/logoRodape.jpg" alt="logo do rodapé">
+			<img id="logoRodape" src="img/logoRodape.jpg" alt="logo do rodapé">
 			<img id="logoGrupo" src="img/logoGrupo.jpg" alt="logo g4.com">
-
 		</div>
 	</footer>
 

@@ -11,19 +11,21 @@
 </head>
 
 <body>
-  <div class="menuComLogo">
-    <img id="logo" src="img/logo497x233.jpg" alt="Imagem do logo grupo G4" />
-    <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
-      <li><a href="saiba-mais.html">Saiba Mais</a></li>
-      <li><a href="contato.html">Contato</a></li>
-
-    </ul>
-  </div>
+  <header>
+		<!-- Cabeçalho -->
+		<img id="logo" src="img/logo497x233.jpg" alt="Imagem do logo portal G4">
+		<nav>
+			<a href="index.html" class="active">Home</a>
+			<a href="sobre.html">Sobre</a>
+			<a href="saiba-mais.html">Saiba Mais</a>
+			<a href="contato.html">Contato</a>
+		</nav>
+	</header>
+  
   <div id="titulo">
     <h1>Para dúvidas, sugestões e reclamações, mande sua mensagem!</h1>
-  </div>
+    </div>
+  
   <div class="formulario">
     <form id="dadosFormulario">
       <p>Preencha o formulário com os seus dados:</p>
@@ -47,18 +49,24 @@
     </form>
   </div>
 
-  <div class="rodape">
-    <div class="dadosRodape">
-      <ul class="menuRodape">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="saiba-mais.html">Saiba mais</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-      <img src="img/logoRodape.jpg" alt="Logo do rodapé, escrito edição pessoas eficientes" />
-      <img id="logoGrupo" src="img/logoGrupo.jpg" alt="Logo g4.com" />
-    </div>
+  <div style="position: fixed; bottom:0%; left: 95%;"><a href="#logo" title="retornar ao topo"><img
+    src="img/voltar.png" width="50%"></a></div>
+</div>
+
+<footer>
+  <!-- Rodapé -->
+  <div class="dadosRodape">
+    <ul class="menuRodape">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="saiba-mais.html">Saiba Mais</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <img id="logoRodape" src="img/logoRodape.jpg" alt="logo do rodapé">
+    <img id="logoGrupo" src="img/logoGrupo.jpg" alt="logo g4.com">
   </div>
+</footer>
+
 </body>
 <script src="script/script.js"></script>
 

@@ -1,16 +1,14 @@
-body, ul, li, p {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+body {
   font-size: 1.1em;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
   background-color: #047681;
+  margin-right: 5%;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.menuComLogo {
-  border-bottom: solid 5px #0fa8d6;
-  margin-left: 5%;
-  margin-right: 5%;
+header {
+  border-bottom: 5px solid #0fa8d6;
 }
 
 #logo {
@@ -19,42 +17,39 @@ body, ul, li, p {
   justify-content: center;
 }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
-.menu a {
-  display: flex;
-  text-decoration: none;
-  margin-left: 5px;
-  margin-bottom: 20px;
-  padding: 10px 16px;
+nav {
   text-align: center;
-  color: #FFDC57;
-  border-radius: 5px;
-  background-color: black;
-  width: auto;
-  text-shadow: 2px 2 px 2px;
 }
 
-li a:hover {
+nav a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  color: #FFDC57;
+  text-decoration: none;
+  background-color: #000000;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  width: 10%;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
 
-h1 {
-  background-color: black;
+#titulo {
+  background-color: #000000;
+  color: #FFDC57;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 25%;
-  margin-right: 25%;
-  border-radius: 10px;
-  color: #FFDC57;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .formulario {
@@ -64,6 +59,8 @@ h1 {
   margin-left: 5%;
   margin-right: 5%;
   flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: -50px;
 }
 
 .formulario p {
@@ -73,7 +70,6 @@ h1 {
 /* CSS referente a pagina de Contato */
 
 #dadosFormulario {
-  margin-top: -30px;
   width: 400px;
   height: 550px;
   padding: 30px;
@@ -118,8 +114,8 @@ input[type='text'], input[type='email'], textarea {
   border-radius: 15px;
   outline: none;
   padding-bottom: 10px;
-  color: #ffdc57;
-  background-color: #047681;
+  color: black;
+  background-color: #0fa8d6;
 }
 
 textarea {
@@ -132,7 +128,7 @@ textarea {
 }
 
 ::placeholder {
-  color: #ffdc57;
+  color: black;
 }
 
 input[type='submit'] {
@@ -149,23 +145,6 @@ input[type='submit'] {
   font-size: xx-large;
 }
 
-/*Rodape*/
-
-.rodape {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 50px;
-}
-
-.menuRodape a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #FFDC57;
-  align-items: center;
-  padding: 10px;
-}
-
 .dadosRodape {
   display: flex;
   flex-wrap: wrap;
@@ -173,11 +152,47 @@ input[type='submit'] {
   align-items: center;
   padding: 20px;
   border-top: 5px solid #0fa8d6;
-  border-bottom: 5px solid #0fa8d6;
   margin-bottom: 50px;
   text-align: center;
 }
 
-#logoGrupo {
-  margin-bottom: -15%;
+ul, li {
+  list-style: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #FFDC57;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+  nav a {
+    display: block;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+  nav {
+    margin-bottom: 50px;
+  }
+  .noticias {
+    display: block;
+  }
+  #logoGrupo {
+    display: none;
+  }
+  #logoRodape {
+    width: 60%;
+  }
 }
